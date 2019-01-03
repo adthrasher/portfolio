@@ -45,7 +45,7 @@ export default  class Resume extends Component {
                           <h3>{item.CompanyName}</h3>
                           <p className="info">
                           {item.specialization}
-                          <span>&bull;</span> <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
+                          <span>&bull;</span> <em className="date">{item.StartMonth} {item.StartYear}</em> <span>&mdash;</span><em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
                           <p>
                           {item.Achievements}
                           </p>
@@ -79,8 +79,7 @@ export default  class Resume extends Component {
                   resumeData.skills && resumeData.skills.map((item) => {
                     return(
                       <li>
-                      <span className={`bar-expand ${item.skillname.toLowerCase()}`}>
-                      </span><em>{item.skillname}</em>
+                      <em>{item.skillname}</em>
                       </li>
                     )
                   })
@@ -98,3 +97,7 @@ export default  class Resume extends Component {
     );
   }
 }
+
+//                      <span className={`bar-expand ${item.skillname.toLowerCase()}`}>
+//                      </span>
+

@@ -1,106 +1,140 @@
 let resumeData = {
-    "imagebaseurl":"https://rbhatia46.github.io/",
-    "name": "Rahul Bhatia",
-    "role": "Frontend Developer and Data Scientist",
-    "linkedinId":"Your LinkedIn Id",
-    "skypeid": "Your skypeid",
+    //"imagebaseurl":"https://rbhatia46.github.io/",
+    "name": "Andrew Thrasher",
+    "role": "Frontend Developer and Data Scientist ",
+    "linkedinId":"adthrasher",
+    //"skypeid": "Your skypeid",
     "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
     "socialLinks":[
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
+          "url":"https://www.linkedin.com/in/adthrasher/",
           "className":"fa fa-linkedin"
         },
         {
           "name":"github",
-          "url":"http://github.com/rbhatia46",
+          "url":"http://github.com/adthrasher",
           "className":"fa fa-github"
         },
-        {
-          "name":"skype",
-          "url":"http://twitter.com/rbhatia46",
-          "className":"fa fa-twitter"
-        }
+//        {
+//          "name":"skype",
+//          "url":"http://twitter.com/rbhatia46",
+//          "className":"fa fa-twitter"
+//        }
       ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
-    "address":"India",
-    "website":"https://rbhatia46.github.io",
+    "aboutme":"",
+    "address":"Asheville, North Carolina",
+    "website":"http://www.andrewthrasher.com",
     "education":[
       {
-        "UniversityName":"The LNM Insitute of Information Technology",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Aug",
-        "YearOfPassing":"2020",
-        "Achievements":"Some Achievements"
+        "UniversityName":"University of Notre Dame",
+        "specialization":"PhD Computer Science and Engineering",
+        "MonthOfPassing":"Jul",
+        "YearOfPassing":"2013",
+        //"Achievements":"Some Achievements"
       },
       {
-        "UniversityName":"Some University",
-        "specialization":"Some specialization",
+        "UniversityName":"University of Notre Dame",
+        "specialization":"MS Computer Science and Engineering",
         "MonthOfPassing":"Jan",
-        "YearOfPassing":"2018",
-        "Achievements":"Some Achievements"
+        "YearOfPassing":"2013",
+        //"Achievements":"Some Achievements"
+      },
+      {
+        "UniversityName":"Anderson University",
+        "specialization":"BA Computer Science, Mathematics and Physics",
+        "MonthOfPassing":"May",
+        "YearOfPassing":"2009"
       }
     ],
     "work":[
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "CompanyName":"North Carolina State University",
+        "specialization":"Research Scholar",
+        "StartMonth":"Feb",
+        "StartYear":"2018",
+        "MonthOfLeaving":"present",
+        //"YearOfLeaving":"2018",
+        //"Achievements":"Some Achievements"
       },
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "CompanyName":"St. Jude Children's Research Hospital",
+        "specialization":"Senior Software Engineer",
+        "StartMonth":"Jul",
+        "StartYear":"2013",
+        "MonthOfLeaving":"Oct",
+        "YearOfLeaving":"2017",
+        //"Achievements":"Some Achievements"
       }
     ],
-    "skillsDescription":"Your skills here",
+    //"skillsDescription":"Your skills here",
     "skills":[
+//      {
+//        "skillname":"HTML5"
+//      },
+//      {
+//        "skillname":"CSS"
+//      },
+//      {
+//        "skillname":"Reactjs"
+//      }
       {
-        "skillname":"HTML5"
+        "skillname":"Perl" 
       },
       {
-        "skillname":"CSS"
+        "skillname":"Bash" 
       },
       {
-        "skillname":"Reactjs"
-      }
+        "skillname":"SQL" 
+      },
+      {
+        "skillname":"C/C++" 
+      },
+       {
+        "skillname":"Python" 
+      },
+       {
+        "skillname":"PostgreSQL" 
+      },
+       {
+        "skillname":"SQL Server" 
+      },
+       {
+        "skillname":"MySQL" 
+      },
     ],
-    "portfolio":[
-      {
-        "name":"project1",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
-      },
-      {
-        "name":"project2",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
-      },
-      {
-        "name":"project3",
-        "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
-      },
-      {
-        "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
-      }
-    ],
-    "testimonials":[
-      {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
-      },
-      {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
-      }
-    ]
+//    "portfolio":[
+//      {
+//        "name":"project1",
+//        "description":"mobileapp",
+//        "imgurl":"images/portfolio/phone.jpg"
+//      },
+//      {
+//        "name":"project2",
+//        "description":"mobileapp",
+//        "imgurl":"images/portfolio/project.jpg"
+//      },
+//      {
+//        "name":"project3",
+//        "description":"mobileapp",  
+//        "imgurl":"images/portfolio/project2.png"
+//      },
+//      {
+//        "name":"project4",
+//        "description":"mobileapp",
+//        "imgurl":"images/portfolio/phone.jpg"
+//      }
+//    ],
+    //"testimonials":[
+    //  {
+    //    "description":"This is a sample testimonial",
+    //    "name":"Some technical guy"
+    //  },
+    //  {
+    //    "description":"This is a sample testimonial",
+    //    "name":"Some technical guy"
+    //  }
+    //]
   }
   
   export default resumeData

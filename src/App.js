@@ -14,8 +14,6 @@ class App extends Component {
         <Header resumeData={resumeData}/>
         <About resumeData={resumeData}/>
         <Resume resumeData={resumeData}/>
-        <Portfolio resumeData={resumeData}/>
-        <Testimonials resumeData={resumeData}/>
         <ContactUs resumeData={resumeData}/>
         <Footer resumeData={resumeData}/>
       </div>
@@ -24,3 +22,7 @@ class App extends Component {
 }
 
 export default App;
+
+        //<Portfolio resumeData={resumeData}/>
+        //<Testimonials resumeData={resumeData}/>
+
