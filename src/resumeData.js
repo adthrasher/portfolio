@@ -1,10 +1,11 @@
 let resumeData = {
     //"imagebaseurl":"https://rbhatia46.github.io/",
     "name": "Andrew Thrasher",
-    "role": "Frontend Developer and Data Scientist ",
+    "role": "Software Engineer and Data Scientist",
     "linkedinId":"adthrasher",
     //"skypeid": "Your skypeid",
-    "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
+    "email":"andrew@andrewthrasher.com",
+    "roleDescription": "I like dabbling in various parts of full stack development and distributed computing and enjoy learning new technologies.",
     "socialLinks":[
         {
           "name":"linkedin",
@@ -22,27 +23,27 @@ let resumeData = {
 //          "className":"fa fa-twitter"
 //        }
       ],
-    "aboutme":"",
+    "aboutme":"I am currently a Research Scholar at the North Carolina Institute for Climate Studies. Prior to that, I was a Senior Software Engineer at St. Jude Children's Research Hospital where I was heavily involved in the development and automation of their clinical sequencing pipeline and contributed to the St. Jude LIFE study.",
     "address":"Asheville, North Carolina",
     "website":"http://www.andrewthrasher.com",
     "education":[
       {
         "UniversityName":"University of Notre Dame",
-        "specialization":"PhD Computer Science and Engineering",
+        "specialization":"PhD, Computer Science and Engineering",
         "MonthOfPassing":"Jul",
         "YearOfPassing":"2013",
         //"Achievements":"Some Achievements"
       },
       {
         "UniversityName":"University of Notre Dame",
-        "specialization":"MS Computer Science and Engineering",
+        "specialization":"MS, Computer Science and Engineering",
         "MonthOfPassing":"Jan",
         "YearOfPassing":"2013",
         //"Achievements":"Some Achievements"
       },
       {
         "UniversityName":"Anderson University",
-        "specialization":"BA Computer Science, Mathematics and Physics",
+        "specialization":"BA, Computer Science, Mathematics, and Physics",
         "MonthOfPassing":"May",
         "YearOfPassing":"2009"
       }
@@ -50,15 +51,17 @@ let resumeData = {
     "work":[
       {
         "CompanyName":"North Carolina State University",
+        "Department":"North Carolina Institute for Climate Studies",
         "specialization":"Research Scholar",
         "StartMonth":"Feb",
         "StartYear":"2018",
-        "MonthOfLeaving":"present",
-        //"YearOfLeaving":"2018",
+        //"MonthOfLeaving":"present",
+        "YearOfLeaving":"present",
         //"Achievements":"Some Achievements"
       },
       {
         "CompanyName":"St. Jude Children's Research Hospital",
+        "Department":"Computational Biology",
         "specialization":"Senior Software Engineer",
         "StartMonth":"Jul",
         "StartYear":"2013",
