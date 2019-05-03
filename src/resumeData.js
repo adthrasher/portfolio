@@ -5,7 +5,7 @@ let resumeData = {
     "linkedinId":"adthrasher",
     //"skypeid": "Your skypeid",
     "email":"andrew@andrewthrasher.com",
-    "roleDescription": "I like dabbling in various parts of full stack development and distributed computing and enjoy learning new technologies.",
+    "roleDescription": "I leverage distributed computing to tackle scientific data problems and enjoy learning new technologies.",
     "socialLinks":[
         {
           "name":"linkedin",
@@ -23,7 +23,7 @@ let resumeData = {
 //          "className":"fa fa-twitter"
 //        }
       ],
-    "aboutme":"I am currently a Research Scholar at the North Carolina Institute for Climate Studies. Prior to that, I was a Senior Software Engineer at St. Jude Children's Research Hospital where I was heavily involved in the development and automation of their clinical sequencing pipeline and contributed to the St. Jude LIFE study.",
+    "aboutme":"I am currently a Senior Bioinformatics Software Engineer with St. Jude Children's Research Hospital. Prior to that I was a Research Scholar at the North Carolina Institute for Climate Studies working in support of the Fourth National Climate Assessment. After graduate school, I was a Senior Software Engineer at St. Jude Children's Research Hospital where I was heavily involved in the development and automation of their clinical sequencing pipeline and contributed to the St. Jude LIFE study.",
     "address":"Asheville, North Carolina",
     "website":"http://www.andrewthrasher.com",
     "education":[
@@ -50,13 +50,23 @@ let resumeData = {
     ],
     "work":[
       {
+        "CompanyName":"St. Jude Children's Research Hospital",
+        "Department":"Computational Biology",
+        "specialization":"Senior Bioinformatics Software Engineer",
+        "StartMonth":"April",
+        "StartYear":"2019",
+        //"MonthOfLeaving":"Oct",
+        "YearOfLeaving":"present",
+        //"Achievements":"Some Achievements"
+      },
+      {
         "CompanyName":"North Carolina State University",
         "Department":"North Carolina Institute for Climate Studies",
         "specialization":"Research Scholar",
         "StartMonth":"Feb",
         "StartYear":"2018",
-        //"MonthOfLeaving":"present",
-        "YearOfLeaving":"present",
+        "MonthOfLeaving":"April",
+        "YearOfLeaving":"2019",
         //"Achievements":"Some Achievements"
       },
       {
